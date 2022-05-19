@@ -1,0 +1,190 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: 'Oleo Script', cursive;
+}
+
+header {
+  background-image: url(img/header.jpg);
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header h1 {
+  font-family: 'Water Brush', cursive;
+  font-size: 7rem;
+  color: yellow;
+  text-shadow: 0px 10px 3px black;
+}
+
+.search-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.search-container form input {
+  outline: none;
+  border: 1px solid black;
+  border-radius: 100px;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+  padding: 5px 0px;
+  background: none;
+  text-align: center;
+  font-size: 2rem;
+  width: 100%;
+}
+
+.filter-btn {
+  background-color: white;
+  outline: none;
+  border: 1px solid red;
+  border-radius: 3px;
+  padding: 5px 10px;
+  font-size: 1.5rem;
+  transition: background-color 200ms;
+}
+
+#filter-btn-container {
+  padding: 5px;
+  border: 1px solid grey;
+  box-shadow: 2px 2px 5px black;
+  border-radius: 3px;
+}
+
+#filter-btn-container:hover {
+  cursor: pointer;
+  color: white;
+}
+
+#filter-btn-container:hover .filter-btn {
+  background-color: black;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 4rem;
+}
+
+.category-container, .course-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.category-item {
+  margin-bottom: 2rem;
+  cursor: pointer;
+}
+
+.course-item {
+  cursor: pointer;
+}
+
+.course-item img, .category-item img {
+  width: 150px;
+  filter: invert(0%) sepia(7%) saturate(792%) hue-rotate(113deg) brightness(99%) contrast(100%);
+}
+
+.course-item:hover img, .category-item:hover img {
+  filter: invert(48%) sepia(21%) saturate(11%) hue-rotate(315deg) brightness(91%) contrast(90%);
+}
+
+.course-item p, .category-item p {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.course-item:hover p, .category-item:hover p {
+  color: #777;
+}
+
+.recipe-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.card-container {
+  padding: 5px;
+  border: 1px solid grey;
+  box-shadow: 2px 2px 5px black;
+  height: 302px;
+  width: fit-content;
+  min-width: 302px;
+  transition: transform 200ms;
+}
+
+.card-container:hover {
+  cursor: pointer;
+  transform: scale(1.02);
+  transform-origin: bottom;
+}
+
+.card {
+  border: 1px solid red;
+  padding: 10px;
+  text-align: center;
+  height: 290px;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-family: inherit;
+}
+
+a {
+  text-decoration: none;
+}
+
+.card-header {
+  font-size: 3.5rem;
+}
+
+.hide {
+  display: none;
+}
+
+footer {
+  background-image: url(img/footer.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  height: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer h2, span {
+  font-size: 3rem;
+  color: yellow;
+  text-shadow: 0px 10px 3px black;
+  font-family: 'Water Brush', cursive;
+}
+
+@media(max-width: 768px) {
+  header h1 {
+    font-size: 4rem;
+  }
+
+  footer h2, span {
+    font-size: 2rem;
+  }
+}

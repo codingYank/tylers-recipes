@@ -1,0 +1,104 @@
+[
+  {
+    "name": "Oven-Roasted Asparagus",
+    "link": "recipes/oven-roasted-asparagus.html",
+    "course": "side",
+    "catagory": "vegetables"
+  },
+  {
+    "name": "Crusty French Baguette",
+    "link": "recipes/crusty-baguette.html",
+    "course": "side",
+    "catagory": "bread"
+  },
+  {
+    "name": "European-style Crusty Bread",
+    "link": "recipes/euro-bread.html",
+    "course": "side",
+    "catagory": "bread"
+  },
+  {
+    "name": "Green Chicken Enchiladas",
+    "link": "recipes/green-chicken-enchiladas.html",
+    "course": "main",
+    "catagory": "poultry"
+  },
+  {
+    "name": "Honey Garlic Chicken",
+    "link": "recipes/honey-garlic-chicken.html",
+    "course": "main",
+    "catagory": "poultry"
+  },
+  {
+    "name": "Creamy Mediterranean Chicken Skillet",
+    "link": "recipes/mediterranean-chicken.html",
+    "course": "main",
+    "catagory": "pasta, poultry"
+  },
+  {
+    "name": "Orange Chicken",
+    "link": "recipes/orange-chicken.html",
+    "course": "main",
+    "catagory": "poultry"
+  },
+  {
+    "name": "Chicken Parmesan Pasta",
+    "link": "recipes/chicken-parm-pasta.html",
+    "course": "main",
+    "catagory": "pasta, poultry"
+  },
+  {
+    "name": "Garlic Herb Butter Roast Chicken",
+    "link": "recipes/roast-chicken.html",
+    "course": "main",
+    "catagory": "poultry"
+  },
+  {
+    "name": "Cinnamon Rolls",
+    "link": "recipes/cinnamon-rolls.html",
+    "course": "dessert",
+    "catagory": "bread"
+  },
+  {
+    "name": "Beer Battered Fish",
+    "link": "recipes/beer-battered-fish.html",
+    "course": "main",
+    "catagory": "fish"
+  },
+  {
+    "name": "Ham and Cheese Pasta",
+    "link": "recipes/ham-cheese-pasta.html",
+    "course": "main",
+    "catagory": "pasta pork"
+  },
+  {
+    "name": "Mongolian Beef",
+    "link": "recipes/mongolian-beef.html",
+    "course": "main",
+    "catagory": "beef"
+  },
+  {
+    "name": "Boneless Lamb Loin",
+    "link": "recipes/lamb-loin.html",
+    "course": "main",
+    "catagory": "lamb"
+  },
+  {
+    "name": "Lo Mein",
+    "link": "recipes/lo-mein.html",
+    "course": "side",
+    "catagory": "pasta"
+  },
+  {
+    "name": "Pizza Dough",
+    "link": "recipes/pizza.html",
+    "course": "main",
+    "catagory": "pizza"
+  },
+  {
+    "name": "Roasted Red Potatoes",
+    "link": "recipes/roasted-red-potatoes.html",
+    "course": "side",
+    "catagory": "potatoes"
+  }
+]

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oleo+Script&family=Water+Brush&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+  <title>Tyler's Recipes</title>
+</head>
+<body>
+  <header>
+    <h1>Tyler's Recipes</h1>
+  </header>
+  <section class="search-container">
+    <form>
+      <input type="text" id="search" placeholder="Search" data-search>
+    </form>
+    <div id="filter-btn-container">
+      <div class="filter-btn">Filter</div>
+    </div>
+  </section>
+  
+  <section class="course-section hide">
+    <h3 class="section-title">Course</h3>
+    <div class="course-container">
+      <div class="course-item mains">
+        <img src="img/mains-icon.svg">
+        <p>Mains</p>
+      </div>
+      <div class="course-item sides">
+        <img src="img/sides-icon.svg">
+        <p>Sides</p>
+      </div>
+      <div class="course-item desserts">
+        <img src="img/dessert-icon.svg">
+        <p>Dessert</p>
+      </div>
+    </div>
+  </section>
+  <section class="category-section hide">
+    <h3 class="section-title">Category</h3>
+    <div class="category-container">
+      <div class="category-item beef">
+        <img src="img/cow-icon.svg">
+        <p>Beef</p>
+      </div>
+      <div class="category-item chicken">
+        <img src="img/chicken-icon.svg">
+        <p>Poultry</p>
+      </div>
+      <div class="category-item pork">
+        <img src="img/pig-icon.svg">
+        <p>Pork</p>
+      </div>
+      <div class="category-item fish">
+        <img src="img/fish-icon.svg">
+        <p>Fish</p>
+      </div>
+      <div class="category-item lamb">
+        <img src="img/lamb-icon.svg">
+        <p>Lamb</p>
+      </div>
+    </div>
+    <div class="category-container">
+      <div class="category-item pizza">
+        <img src="img/pizza-icon.svg">
+        <p>Pizza</p>
+      </div>
+      <div class="category-item potatoes">
+        <img src="img/potato-icon.svg">
+        <p>Potatoes</p>
+      </div>
+      <div class="category-item pasta">
+        <img src="img/pasta-icon.svg">
+        <p>Pasta</p>
+      </div>
+      <div class="category-item bread">
+        <img src="img/bread-icon.svg">
+        <p>Bread</p>
+      </div>
+      <div class="category-item vegetables">
+        <img src="img/veg-icon.svg">
+        <p>Vegetables</p>
+      </div>
+    </div>
+  </section>
+  <section>
+    <h3 class="section-title">Recipes</h3>
+    <div class="recipe-cards">
+    </div>
+  </section>
+  <footer>
+    <h2>Tyler's Recipes</h2>
+    <span>Happy Cooking</span>
+  </footer>
+</body>
+</html>

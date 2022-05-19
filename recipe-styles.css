@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1 0 auto;
+}
+
+header, footer {
+  background: url(recipe-header.jpg);
+  height: 150px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+header a ,footer a{
+  text-decoration: none;
+  color: yellow;
+  text-shadow: 0px 10px 3px black;
+  font-family: 'Water Brush', cursive;
+  font-size: 4rem;
+}
+
+section {
+  padding: 0 30px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.recipe-name {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 3rem;
+}
+
+.ingredients h3, .instructions h3 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.ingredients li, .instructions li {
+  font-size: 1.3rem;
+  line-height: 30px;
+}
+
+.instructions li a {
+  color: black;
+}
+
+.sub-recipe-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.sub-recipe h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.sub-recipe h4 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.sub-recipe li {
+  font-size: 1.1rem;
+}
+
+footer {
+  flex-shrink: 0;
+}
+
+@media(max-width: 800px) {
+  .sub-recipe-container {
+    flex-wrap: wrap;
+  }
+}
